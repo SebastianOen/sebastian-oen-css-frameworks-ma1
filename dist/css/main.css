@@ -4937,11 +4937,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -4960,7 +4960,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-light .navbar-toggler {
@@ -4977,11 +4977,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-text a {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-dark .navbar-brand {
@@ -10856,8 +10856,8 @@ footer {
   background-color: #f4f3ee;
 }
 
-.navbar .active {
-  color: #c32c72;
+.navbar-brand {
+  color: #262626;
 }
 
 .nav__menu {
@@ -10873,5 +10873,9 @@ footer {
 
 .navbar-toggler {
   border: none;
+}
+
+.nav-link {
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */

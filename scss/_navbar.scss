@@ -2,10 +2,10 @@
 
 .navbar {
   background-color: $primary;
+}
 
-  .active {
-    color: $accent-color;
-  }
+.navbar-brand {
+  color: #262626;
 }
 
 .nav__menu {
@@ -17,4 +17,8 @@
 
 .navbar-toggler {
   border: none;
+}
+
+.nav-link {
+  text-transform: uppercase;
 }
