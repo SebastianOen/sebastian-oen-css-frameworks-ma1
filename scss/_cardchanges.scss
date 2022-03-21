@@ -1,0 +1,28 @@
+@import "./variable";
+
+.card {
+  height: 264px;
+  width: 264px;
+  margin-top: -20px;
+  background-color: $primary;
+  border: none;
+}
+
+.card__bgwhite__bdpink {
+  background-color: #fff;
+  border: 3px solid $accent-color;
+}
+
+.card__bgpink__bdwhite {
+  background-color: $accent-color;
+  border: 3px solid #fff;
+}
+
+#cardStyle {
+  border-radius: 20px;
+}
+
+.col-lg-3 {
+  width: 270px;
+  margin: auto;
+}

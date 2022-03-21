@@ -1,0 +1,20 @@
+@import "./variable";
+
+.navbar {
+  background-color: $primary;
+
+  .active {
+    color: $accent-color;
+  }
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto auto;
+  width: 80%;
+}
+
+.navbar-toggler {
+  border: none;
+}
