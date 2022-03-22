@@ -1,18 +1,24 @@
 @import "./variable";
 
+.navBarBg {
+  width: 100%;
+  background-color: $primary;
+}
+
 .navbar {
   background-color: $primary;
+  width: 80%;
+  margin: auto;
 }
 
 .navbar-brand {
   color: #262626;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-.nav__menu {
-  display: flex;
-  justify-content: space-between;
-  margin: auto auto;
-  width: 80%;
+.nav-link {
+  font-size: 1.7rem;
 }
 
 .navbar-toggler {

@@ -1,0 +1,19 @@
+body {
+  background-color: #e5e5e5;
+  h1 {
+    color: #463f3a;
+    font-weight: 600;
+  }
+}
+
+footer {
+  background-color: $primary;
+  margin-top: 40px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}

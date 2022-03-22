@@ -38,30 +38,7 @@
 @import "../bootstrap-scss/utilities";
 @import "../bootstrap-scss/print";
 
-body {
-  background-color: #e5e5e5;
-}
-
-.headerTxt {
-  margin-top: 40px;
-}
-
-.contentContainer {
-  margin-top: 60px;
-  margin: 60px auto;
-}
-
-footer {
-  background-color: $primary;
-  margin-top: 40px;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: auto;
-}
-
+@import "./global";
 @import "./cardchanges";
 @import "./navbar";
+@import "./homePage";

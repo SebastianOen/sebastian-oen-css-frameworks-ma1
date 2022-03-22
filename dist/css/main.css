@@ -4937,7 +4937,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: #c32c72;
+  color: #262626;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
@@ -10800,13 +10800,9 @@ body {
   background-color: #e5e5e5;
 }
 
-.headerTxt {
-  margin-top: 40px;
-}
-
-.contentContainer {
-  margin-top: 60px;
-  margin: 60px auto;
+body h1 {
+  color: #463f3a;
+  font-weight: 600;
 }
 
 footer {
@@ -10814,14 +10810,14 @@ footer {
   margin-top: 40px;
 }
 
-.footer-container {
+.footerContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
@@ -10852,23 +10848,25 @@ footer {
   margin: auto;
 }
 
+.navBarBg {
+  width: 100%;
+  background-color: #f4f3ee;
+}
+
 .navbar {
   background-color: #f4f3ee;
+  width: 80%;
+  margin: auto;
 }
 
 .navbar-brand {
   color: #262626;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-.nav__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: auto auto;
-  width: 80%;
+.nav-link {
+  font-size: 1.7rem;
 }
 
 .navbar-toggler {
@@ -10877,5 +10875,14 @@ footer {
 
 .nav-link {
   text-transform: uppercase;
+}
+
+.headerTxt {
+  margin-top: 40px;
+}
+
+.contentContainer {
+  margin-top: 60px;
+  margin: 60px auto;
 }
 /*# sourceMappingURL=main.css.map */
