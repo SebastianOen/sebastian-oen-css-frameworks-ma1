@@ -7,6 +7,9 @@ body {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background-color: $primary;
   margin-top: 40px;
 }
